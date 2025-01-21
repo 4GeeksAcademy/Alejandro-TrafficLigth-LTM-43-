@@ -1,11 +1,43 @@
-/* 
+.support-box {
+    width: 20px;
+    height: 120px;
+    margin: 0px auto;
+    background-color: black;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.lights-boxes {
+    width: 170px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 40px;
+}
 
-*/
+.lights-boxes div {
+    border: 1px solid black;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 6px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.lights-one {
+    box-shadow: 1px 0px 27px 13px rgba(0,0,0,0.61);
+-webkit-box-shadow: 1px 0px 27px 13px rgba(229, 245, 5, 0.61);
+-moz-box-shadow: 1px 0px 27px 13px rgba(221, 245, 7, 0.61);
+}
