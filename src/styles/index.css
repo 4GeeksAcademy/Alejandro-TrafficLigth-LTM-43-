@@ -36,8 +36,8 @@
     background-color: green;
 }
 
-.lights-one {
-    box-shadow: 1px 0px 27px 13px rgba(0,0,0,0.61);
--webkit-box-shadow: 1px 0px 27px 13px rgba(229, 245, 5, 0.61);
--moz-box-shadow: 1px 0px 27px 13px rgba(221, 245, 7, 0.61);
+.on {
+   git diff . box-shadow: 1px 0px 27px 13px rgba(250, 225, 3, 0.87);
+-webkit-box-shadow: 1px 0px 27px 13px rgba(229, 245, 5, 0.774);
+-moz-box-shadow: 1px 0px 27px 13px rgba(221, 245, 7, 0.733);
 }
